@@ -6,6 +6,6 @@ A collection of useful Sass mixins. This allows a direct drop-in to your existin
 ```
 
 ## TODO
-* Add more mixins.
-* Organize file structure a bit more.
-* Document :allthethings:.
+- [ ] Add more mixins.
+- [ ] Organize file structure a bit more.
+- [ ]  Document :allthethings:.
