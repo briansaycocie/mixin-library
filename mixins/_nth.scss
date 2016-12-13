@@ -1,0 +1,35 @@
+// First nth Elements
+@mixin nth-first($num) {
+	@if $num == 1 {
+		&:first-child {
+			@content;
+		}
+	}
+
+	@else {
+		&:nth-child(-n + #{$num}) {
+			@content;
+		}
+	}
+}
+
+// Last nth Elements
+@mixin nth-last($num) {
+	&:nth-last-child(-n + #{$num}) {
+		@content;
+	}
+}
+
+// After nth Elements
+@mixin nth-after($num) {
+	&:nth-child(n+#{$num + 1}) {
+		@content
+	}
+}
+
+// Each nth Elements
+@mixin nth-each($num) {
+	&:nth-child(#{$num}n) {
+		@content
+	}
+}
