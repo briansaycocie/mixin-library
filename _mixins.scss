@@ -9,7 +9,15 @@
 /**
  * Variables
  */
-@import "variables";
+// Breakpoints
+$breakpoints: (
+	'x-sm':  (min-width: 320px),
+	'sm':    (min-width: 580px),
+	'md':    (min-width: 768px),
+	'md-lg': (min-width: 1024px),
+	'lg':    (min-width: 1200px),
+	'x-lg':  (min-width: 1400px )
+);
 
 /**
  * Mixins
