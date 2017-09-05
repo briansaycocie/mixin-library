@@ -2,7 +2,7 @@
  * Mixin Library
  * A collection of useful Sass mixins.
  *
- * Copyright (c) 2016 Brian Saycocie
+ * Copyright (c) 2017 Brian Saycocie
  * Licensed under the GPL-2.0+ license.
  */
 
@@ -11,12 +11,14 @@
  */
 // Breakpoints
 $breakpoints: (
-	'x-sm':  (min-width: 320px),
-	'sm':    (min-width: 580px),
-	'md':    (min-width: 768px),
-	'md-lg': (min-width: 1024px),
-	'lg':    (min-width: 1200px),
-	'x-lg':  (min-width: 1400px )
+	'x-sm':   (min-width: 320px),
+	'sm':     (min-width: 580px),
+	'md':     (min-width: 768px),
+	'md-lg':  (min-width: 1024px),
+	'lg':     (min-width: 1200px),
+	'x-lg':   (min-width: 1300px),
+	'xx-lg':  (min-width: 1400px),
+	'xxx-lg': (min-width: 1500px)
 );
 
 /**
